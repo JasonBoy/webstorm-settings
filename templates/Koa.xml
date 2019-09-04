@@ -1,0 +1,49 @@
+<templateSet group="Koa">
+  <template name="kuser" value="const user = ctx.session.user;" description="koa user in session [ctx.session.user]" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ECMAScript6" value="true" />
+    </context>
+  </template>
+  <template name="kbody" value="const body = ctx.request.body;" description="koa body in request [ctx.request.body]" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ECMAScript6" value="true" />
+    </context>
+  </template>
+  <template name="kr" value="router.$END$('/$END$', async ctx =&gt; {&#10;  &#10;});" description="koa route def" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ECMAScript6" value="true" />
+    </context>
+  </template>
+  <template name="krget" value="router.get('/$END$', async ctx =&gt; {&#10;  &#10;});" description="koa route get def" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ECMAScript6" value="true" />
+    </context>
+  </template>
+  <template name="krpost" value="router.post('/$END$', async ctx =&gt; {&#10;  &#10;});" description="koa route post def" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ECMAScript6" value="true" />
+    </context>
+  </template>
+  <template name="krput" value="router.put('/$END$', async ctx =&gt; {&#10;  &#10;});" description="koa route put def" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ECMAScript6" value="true" />
+    </context>
+  </template>
+  <template name="krdel" value="router.delete('/$END$', async ctx =&gt; {&#10;  &#10;});" description="koa route delete def" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ECMAScript6" value="true" />
+    </context>
+  </template>
+  <template name="kb" value="ctx.body = $END$" description="koa set ctx.body" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="ksess" value="const sess = ctx.session;" description="koa session" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

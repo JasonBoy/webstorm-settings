@@ -1,0 +1,9 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="RegExp/Declaration/Check RegExp" />
+    <ignoreAction name="JavaScript/JSX/Wrap value with {}" />
+    <ignoreAction name="XML/Rearrange tag attributes" />
+    <ignoreAction name="XML/Remove attribute" />
+    <ignoreAction name="XML/Reset to default namespace" />
+  </component>
+</application>

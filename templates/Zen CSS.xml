@@ -1,0 +1,5 @@
+<templateSet group="Zen CSS">
+  <template name="f" value="font: $END$;" description="font:...;" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+</templateSet>

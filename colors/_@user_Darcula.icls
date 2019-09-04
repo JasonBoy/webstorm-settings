@@ -1,0 +1,24 @@
+<scheme name="_@user_Darcula" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="created">2018-07-04T10:48:15</property>
+    <property name="ide">WebStorm</property>
+    <property name="ideVersion">2018.2.0.0</property>
+    <property name="modified">2019-03-26T22:43:55</property>
+    <property name="originalScheme">Darcula</property>
+  </metaInfo>
+  <colors>
+    <option name="FILESTATUS_ADDED" value="76b366" />
+    <option name="FILESTATUS_DELETED" value="7a7a99" />
+    <option name="FILESTATUS_HIJACKED" value="" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="7a7a99" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="c78ba1" />
+    <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="808080" />
+    <option name="FILESTATUS_MERGED" value="b78fcc" />
+    <option name="FILESTATUS_MODIFIED" value="62baf5" />
+    <option name="FILESTATUS_OBSOLETE" value="" />
+    <option name="FILESTATUS_SUPPRESSED" value="" />
+    <option name="FILESTATUS_SWITCHED" value="" />
+    <option name="FILESTATUS_UNKNOWN" value="bf8060" />
+    <option name="FILESTATUS_addedOutside" value="548049" />
+  </colors>
+</scheme>

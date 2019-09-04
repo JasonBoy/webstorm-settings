@@ -1,0 +1,28 @@
+<templateSet group="user">
+  <template name="oa" value="Object.assign($END$)" description="Object.assign()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="requ" value="const $NAME$ = require('$MODULE$');$END$" description="require a nodejs module" toReformat="false" toShortenFQNames="true">
+    <variable name="MODULE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ok" value="Object.keys($END$);" description="Object.keys(object)" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ES6_EXPRESSION" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="VUE_COMPONENT_DESCRIPTOR" value="false" />
+      <option name="VUE_INSIDE_TAG" value="false" />
+      <option name="VUE_SCRIPT" value="false" />
+      <option name="VUE_TEMPLATE" value="false" />
+      <option name="VUE_TOP_LEVEL" value="false" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+</templateSet>

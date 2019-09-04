@@ -1,0 +1,14 @@
+<templateSet group="Vue">
+  <template name="vinvisible" value=":class=&quot;{'d-none': $END$}&quot;" description="Dynamic css class 'd-none' in vue" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="VUE_COMPONENT_DESCRIPTOR" value="true" />
+      <option name="VUE_INSIDE_TAG" value="true" />
+      <option name="VUE_TEMPLATE" value="true" />
+    </context>
+  </template>
+  <template name="vnt" value="await this.$nextTick();" description="await this.$nextTick()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+</templateSet>

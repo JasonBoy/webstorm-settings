@@ -1,0 +1,9 @@
+<templateSet group="wechat">
+  <template name="wst" value="wx.showToast({&#10;  title: '$END$',&#10;  icon: 'none',&#10;})" description="wx.showToast({})" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+</templateSet>

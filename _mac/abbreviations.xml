@@ -1,0 +1,10 @@
+<application>
+  <component name="AbbreviationManager">
+    <abbreviations>
+      <action id="FullyExpandTreeNode">
+        <abbreviation name="eall" />
+      </action>
+      <action id="ShowUmlDiagram" />
+    </abbreviations>
+  </component>
+</application>

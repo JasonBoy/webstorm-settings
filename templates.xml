@@ -1,0 +1,12 @@
+<application>
+  <component name="TemplateSettings">
+    <option name="deletedKeys">
+      <list>
+        <TemplateKey>
+          <option name="groupName" value="React" />
+          <option name="key" value="state" />
+        </TemplateKey>
+      </list>
+    </option>
+  </component>
+</application>

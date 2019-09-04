@@ -1,0 +1,12 @@
+<application>
+  <component name="PostfixTemplates">
+    <template id="logname@userDefined" key=".logname" provider="builtin.js" language-level="ES5" topmost="true">
+      <conditions />
+      <template name="fakeKey" value="console.log('$EXPR$: ', $EXPR$);" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="logjson@userDefined" key=".logjson" provider="builtin.js" language-level="ES5" topmost="true">
+      <conditions />
+      <template name="fakeKey" value="console.log('$EXPR$: ', JSON.stringify($EXPR$));" toReformat="true" toShortenFQNames="true" />
+    </template>
+  </component>
+</application>

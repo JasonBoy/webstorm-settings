@@ -1,0 +1,96 @@
+<templateSet group="JavaScript">
+  <template name="tc" value="try {&#10;  $END$&#10;} catch (err) {&#10;  console.error(err);&#10;  &#10;}" description="Create try{} catch(e){} block" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cf" value="$FIELDNAME$ = ($ARGUMENTS$) =&gt; {&#10;  $END$&#10;};" description="arrow function for class fields" toReformat="false" toShortenFQNames="true">
+    <variable name="FIELDNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARGUMENTS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="importdefault" value="import $ITEM$ from &quot;$MODULE$&quot;;$END$" description="Import statement - import b from 'a'" toReformat="true" toShortenFQNames="true">
+    <variable name="MODULE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="ITEM" expression="jsSuggestImportedEntityName()" defaultValue="Namespace" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="newp" value="return new Promise((resolve, reject) =&gt; {&#10;  $END$&#10;});&#10;" description="Wrapped in Promise" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="imd" value="import $ITEM$ from &quot;$MODULE$&quot;;$END$" description="Import statement - import b from 'a'" toReformat="true" toShortenFQNames="true">
+    <variable name="MODULE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="ITEM" expression="jsSuggestImportedEntityName()" defaultValue="Namespace" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="conl" value="console.log('$MSG$');$END$" description="console.log(msg)" toReformat="true" toShortenFQNames="true">
+    <variable name="MSG" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="conerr" value="console.error('$MSG$');$END$" description="console.error(msg)" toReformat="true" toShortenFQNames="true">
+    <variable name="MSG" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="obja" value="Object.assign($END$);" description="Object.assign()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="isemp" value="import isEmpty from 'lodash.isempty';" description="import lodash.isempty" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ECMAScript6" value="true" />
+    </context>
+  </template>
+  <template name="cfa" value="$FIELDNAME$ = async ($ARGUMENTS$) =&gt; {&#10;  $END$&#10;};" description="async arrow function for class fields" toReformat="false" toShortenFQNames="true">
+    <variable name="FIELDNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARGUMENTS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="swf" value="$FCUNTION_NAME$($SELECTION$)$END$" description="surround with function" toReformat="false" toShortenFQNames="true">
+    <variable name="FCUNTION_NAME" expression="" defaultValue="String" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="envd" value="if(process.env.NODE_ENV === 'development') {&#10;  $END$&#10;}" description="insert process.env.NODE_ENV development" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="impr" value="import r, { api } from 'modules/Request';" description="import 'modules/Request'" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+</templateSet>
